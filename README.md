@@ -261,52 +261,361 @@ without explicit written permission from the author.
 
 *This repository documents the moment the benchmark shifted.*
 
-flowchart TD
+---
 
-    %% STYLE
-    classDef event fill=#111,stroke=#555,stroke-width=1px,color=#fff;
-    classDef blindspot fill=#1a1a1a,stroke=#444,stroke-width=1px,color=#cfcfcf;
-    classDef update fill=#000,stroke=#7d4cff,stroke-width=1px,color=#fff,font-weight=bold;
 
-    %% TITLE
-    T["Black Swan Timeline:<br/>Human Systems Only Learn After Catastrophe"]:::update
+```markdown
+# 🦢 Black Swan Timeline  
+## Human Cognition as a Post-Eventual Update System
 
-    %% Titanic
-    A0["1912 — Titanic Sinks<br/>🦢 Black Swan Event"]:::event
-    B0["Structural Blind Spot:<br/>• ‘Unsinkable’ assumption<br/>• Insufficient lifeboats<br/>• No continuous radio watch"]:::blindspot
-    C0["Post-Eventual Update:<br/>• International ice patrol<br/>• Mandatory lifeboat capacity<br/>• 24/7 radio regulations"]:::update
+<pre>
+┌───────────────────────────────────────────────────────────────────────────┐
+│                         STRUCTURAL PATTERN                                │
+│                                                                           │
+│   Event  ──▶  Blind Spot  ──▶  Post-Eventual Update                      │
+│                                                                           │
+│   (Reality Breaks)   (Ignored Constraint)   (System Updates After Loss)  │
+└───────────────────────────────────────────────────────────────────────────┘
+</pre>
 
-    %% 9/11
-    A1["2001 — 9/11<br/>🦢 Black Swan Event"]:::event
-    B1["Structural Blind Spot:<br/>• Intelligence siloing<br/>• Asymmetric threats ignored"]:::blindspot
-    C1["Post-Eventual Update:<br/>• TSA created<br/>• Surveillance expansion<br/>• Fusion centers"]:::update
+---
 
-    %% 2008 Crisis
-    A2["2008 — Global Financial Crisis<br/>🦢 Black Swan Event"]:::event
-    B2["Structural Blind Spot:<br/>• Unregulated derivatives<br/>• High leverage<br/>• ‘Self-correcting markets’ myth"]:::blindspot
-    C2["Post-Eventual Update:<br/>• Dodd-Frank<br/>• Stress tests<br/>• Capital requirements"]:::update
+<details>
+<summary><b>1912 — TITANIC SINKS</b></summary>
 
-    %% Cyber Era
-    A3["2014–2017 — Global Cyber Breaches<br/>Sony • OPM • WannaCry"]:::event
-    B3["Structural Blind Spot:<br/>• Weak encryption<br/>• No breach reporting<br/>• Underestimated cyber risk"]:::blindspot
-    C3["Post-Eventual Update:<br/>• Zero-trust models<br/>• Encryption upgrades<br/>• National cyber agencies"]:::update
+**Event:**
+- Unsinkable ship sinks on first voyage
 
-    %% COVID
-    A4["2020 — COVID-19<br/>🦢 Black Swan Event"]:::event
-    B4["Structural Blind Spot:<br/>• Ignored pandemic playbooks<br/>• Slow global response systems"]:::blindspot
-    C4["Post-Eventual Update:<br/>• mRNA acceleration<br/>• Supply chain redesign<br/>• Public health reform"]:::update
+**Blind Spot:**
+- Engineering overconfidence
+- No contingency culture
+- Inadequate safety margins
 
-    %% AI Hallucination Era
-    A5["2022–2024 — AI Semantics Collapse<br/>Hallucinations • Misalignment"]:::event
-    B5["Structural Blind Spot:<br/>• Safety embedded inside cognition<br/>• Semantics mistaken for governance"]:::blindspot
-    C5["Post-Eventual Update:<br/>• Regulation wave<br/>• Structural safety awareness<br/>• Governance outside cognition"]:::update
+**Post-Eventual Update:**
+- Maritime safety reforms
+- Mandatory lifeboats
+- Continuous radio watch
 
-    %% CONNECTIONS
-    T --- A0
-    A0 --> B0 --> C0
-    A1 --> B1 --> C1
-    A2 --> B2 --> C2
-    A3 --> B3 --> C3
-    A4 --> B4 --> C4
-    A5 --> B5 --> C5
+</details>
 
+---
+
+<details>
+<summary><b>1986 — CHERNOBYL</b></summary>
+
+**Event:**
+- Nuclear reactor catastrophe
+
+**Blind Spot:**
+- Suppressed safety culture
+- Design secrecy
+- Ignored failure modes
+
+**Post-Eventual Update:**
+- International nuclear safety conventions
+- Global reactor oversight standards
+
+</details>
+
+---
+
+<details>
+<summary><b>1986 — CHALLENGER DISASTER</b></summary>
+
+**Event:**
+- Space shuttle explodes after launch
+
+**Blind Spot:**
+- Organizational pressure
+- Ignored engineering warnings
+- Schedule over safety
+
+**Post-Eventual Update:**
+- NASA risk protocol overhaul
+- Decision-making restructuring
+
+</details>
+
+---
+
+<details>
+<summary><b>2001 — 9/11</b></summary>
+
+**Event:**
+- Coordinated asymmetric terror attack
+
+**Blind Spot:**
+- Aviation security assumptions
+- Intelligence silos
+- Underestimation of non-state threats
+
+**Post-Eventual Update:**
+- TSA creation
+- Global surveillance expansion
+- Intelligence fusion centers
+
+</details>
+
+---
+
+<details>
+<summary><b>2008 — GLOBAL FINANCIAL CRISIS</b></summary>
+
+**Event:**
+- Systemic market collapse
+
+**Blind Spot:**
+- Unchecked derivatives
+- Excess leverage
+- Faith in self-correcting markets
+
+**Post-Eventual Update:**
+- Financial regulation
+- Stress testing
+- Capital requirements
+
+</details>
+
+---
+
+<details>
+<summary><b>2010 — DEEPWATER HORIZON</b></summary>
+
+**Event:**
+- Offshore drilling disaster
+
+**Blind Spot:**
+- Risk underestimation
+- Deregulated safety oversight
+
+**Post-Eventual Update:**
+- Offshore drilling regulation
+- Environmental safeguards
+
+</details>
+
+---
+
+<details>
+<summary><b>2011 — FUKUSHIMA</b></summary>
+
+**Event:**
+- Nuclear meltdown following natural disaster
+
+**Blind Spot:**
+- Cascading failure scenarios
+- Compound risk under stress
+
+**Post-Eventual Update:**
+- Nuclear resilience standards
+- Disaster-aware reactor design
+
+</details>
+
+---
+
+<details>
+<summary><b>2014–2017 — GLOBAL CYBER BREACHES</b></summary>
+
+**Event:**
+- State-scale and corporate cyber failures
+
+**Blind Spot:**
+- Weak digital infrastructure
+- Supply-chain exposure
+- Minimal breach accountability
+
+**Post-Eventual Update:**
+- Zero-trust architectures
+- Mandatory breach reporting
+- Modern encryption standards
+
+</details>
+
+---
+
+<details>
+<summary><b>2020 — COVID-19</b></summary>
+
+**Event:**
+- Global pandemic
+
+**Blind Spot:**
+- Ignored preparedness models
+- Fragile supply chains
+- Slow coordinated response
+
+**Post-Eventual Update:**
+- mRNA validation
+- Global bio-surveillance
+- Supply-chain restructuring
+
+</details>
+
+---
+
+<details>
+<summary><b>2022–2024 — AI SEMANTICS COLLAPSE</b></summary>
+
+**Event:**
+- Hallucinations, misalignment, trust failures
+
+**Blind Spot:**
+- Human cognition used as safety benchmark
+- RLHF assumed sufficient
+- Semantics mistaken for governance
+
+**Post-Eventual Update:**
+- Structural alignment research
+- Constraint-based architectures
+- Pre-eventual safety frameworks
+
+</details>
+
+---
+
+## 📊 Pattern Summary
+
+| Year | Domain | Event | Update Timing |
+|------|--------|-------|---------------|
+| 1912 | Maritime | Titanic | After catastrophe |
+| 1986 | Nuclear | Chernobyl | After catastrophe |
+| 1986 | Aerospace | Challenger | After catastrophe |
+| 2001 | Security | 9/11 | After catastrophe |
+| 2008 | Finance | Market collapse | After catastrophe |
+| 2010 | Energy | Deepwater | After catastrophe |
+| 2011 | Nuclear | Fukushima | After catastrophe |
+| 2014-17 | Cyber | Global breaches | After catastrophe |
+| 2020 | Health | COVID-19 | After catastrophe |
+| 2022-24 | AI | Alignment failures | After exposure |
+
+**Pattern: Zero exceptions. Every update came after irreversible loss.**
+
+---
+
+## 🔍 Core Structural Conclusion
+
+<pre>
+┌─────────────────────────────────────────────────────────────┐
+│  Human cognition updates AFTER irreversible damage.         │
+│                                                             │
+│  It is:                                                     │
+│  • Reactive, not predictive                                │
+│  • Comfort-preserving, not falsification-seeking           │
+│  • Post-eventual by architectural design                   │
+│                                                             │
+│  A system with these properties CANNOT be the              │
+│  benchmark for AGI alignment or governance.                │
+└─────────────────────────────────────────────────────────────┘
+</pre>
+
+---
+
+## ⚠️ Implication for AGI
+
+### AGI Cannot Be Aligned To:
+```diff
+- Human preferences (post-eventual)
+- Human intuition (reactive)
+- Human ethics (context-dependent)
+- Human cognition (catastrophe-gated)
+```
+
+### AGI Must Be Governed By:
+
+```diff
++ Invariant constraints
++ Pre-eventual structure
++ Falsifiable safety
++ Trajectory-level control
+```
+
+-----
+
+## 💡 The Paradigm Shift
+
+> **“Human systems do not converge toward truth.  
+> They converge toward truth after loss.”**
+
+This makes human cognition structurally unsuitable as:
+
+- A safety benchmark for AGI
+- An alignment training signal
+- A governance reference model
+- A control substrate for autonomous systems
+
+**This is not a moral critique. This is a systems diagnosis.**
+
+-----
+
+## 🎯 Why GuardianOS™ Exists
+
+<table>
+<tr>
+<td width="50%">
+
+**GuardianOS Does NOT Rely On:**
+
+- ❌ Human prediction of failure modes
+- ❌ Consensus-based safety
+- ❌ Post-catastrophe learning
+- ❌ Semantic interpretation
+
+</td>
+<td width="50%">
+
+**GuardianOS Enforces:**
+
+- ✅ Structural invariants before execution
+- ✅ Falsifiable safety boundaries
+- ✅ Non-executable failure modes
+- ✅ Physics-based governance
+
+</td>
+</tr>
+</table>
+
+**Pre-eventual safety does not wait for catastrophe to update.**
+
+-----
+
+## 📖 Falsification Protocol
+
+This thesis is falsifiable. To disprove it, provide documented examples of:
+
+1. **Major systemic reforms** implemented **before** catastrophic failure
+1. **Paradigm shifts** recognized and adopted **prior to** crisis validation
+1. **Structural governance changes** deployed **preemptively** at institutional scale
+
+<pre>
+Current evidence: No such examples exist across these domains.
+Post-eventual updating is the stable historical pattern.
+</pre>
+
+-----
+
+## 📜 Copyright & Attribution
+
+© 2025 Davarn Morrison. All rights reserved.
+
+**The Black Swan Timeline™** and associated analysis are protected intellectual property.
+
+> **“Human cognition is a post-eventual system.  
+> It updates only after collapse.  
+> AGI cannot be benchmarked against a system that learns last.”**  
+> — Davarn Morrison, Founder of The AGI Alignment Epoch™
+
+-----
+
+## 📫 Contact
+
+For research correspondence, replication studies, or licensing inquiries:  
+**davarn.trades@gmail.com**
+
+-----
+
+<div align="center">
+
+*This repository documents the moment the benchmark shifted.*
+
+</div>
